@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.content {
+    text-align: center;
+    height: 400px;
+    width: 100%;
+}
+
+.parallax {
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 100%;
+}
+
+#parallax-1 {
+    background-image: url(http://miriadna.com/desctopwalls/images/max/View-of-the-valley.jpg);
+}
+
+#parallax-2 {
+    background-image: url(http://miriadna.com/desctopwalls/images/max/Another-ordinary-day.jpg);
+}
